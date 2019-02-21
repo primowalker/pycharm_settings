@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="kwargs" value="for key, value in mydic.items() :&#10;            print (key, value)" description="Print keys/values pairs from a dictonary" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
