@@ -4,7 +4,7 @@
     <property name="created">2019-02-20T20:46:10</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2018.3.3.0.0</property>
-    <property name="modified">2019-02-21T00:18:04</property>
+    <property name="modified">2019-02-22T01:08:26</property>
     <property name="originalScheme">Potpourri Contrast (rainglow)</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -19,12 +19,12 @@
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
   <option name="CONSOLE_LINE_SPACING" value="1.6" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="b866fa" />
+    <option name="ADDED_LINES_COLOR" value="b419fa" />
     <option name="ANNOTATIONS_COLOR" value="b0bec5" />
     <option name="CARET_COLOR" value="f8f8f2" />
     <option name="CARET_ROW_COLOR" value="151313" />
     <option name="CONSOLE_BACKGROUND_KEY" value="d0c0c" />
-    <option name="DELETED_LINES_COLOR" value="f77669" />
+    <option name="DELETED_LINES_COLOR" value="f70510" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1c1c1c" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="171717" />
     <option name="DOCUMENTATION_COLOR" value="d0c0c" />
@@ -51,7 +51,7 @@
     <option name="INFORMATION_HINT" value="d0c0c" />
     <option name="LINE_NUMBERS_COLOR" value="353131" />
     <option name="METHOD_SEPARATORS_COLOR" value="1a1818" />
-    <option name="MODIFIED_LINES_COLOR" value="ffcb6e" />
+    <option name="MODIFIED_LINES_COLOR" value="feff08" />
     <option name="MT_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
     <option name="MT_SUPPRESSED" value="f8f8f2" />
     <option name="NOTIFICATION_BACKGROUND" value="3d1a11" />
@@ -70,7 +70,7 @@
     <option name="VCS_ANNOTATIONS_COLOR_4" value="5a4036" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="ab7967" />
     <option name="WHITESPACES" value="181616" />
-    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="181616" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="838383" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
