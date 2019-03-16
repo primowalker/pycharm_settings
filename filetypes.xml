@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern=".gitbash" type="Bash" />
       <mapping ext="ksh" type="Bash" />
     </extensionMap>
   </component>
