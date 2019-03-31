@@ -4,6 +4,7 @@
       <mapping pattern=".vimrc" type="Bash" />
       <mapping pattern=".gitbash" type="Bash" />
       <mapping ext="ksh" type="Bash" />
+      <mapping pattern="list" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
