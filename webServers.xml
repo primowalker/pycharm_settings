@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="91625c92-b517-4da2-baf2-758d7e578d2f" name="bin" url="http://localhost">
-        <fileTransfer port="0" mountedRoot="C:\cygwin64\home\F8TG2LA\bin" accessType="MOUNT" />
+        <fileTransfer port="0" mountedRoot="C:\Users\f8tg2la\Documents\bin" accessType="MOUNT" />
       </webServer>
       <webServer id="b25db7f5-3887-4e6f-88c1-7bf034bfcba9" name="n1pvir001" url="http://n1pvir001">
         <fileTransfer host="n1pvir001" port="22" privateKey="C:\Users\f8tg2la\Documents\laptop_putty.ppk" rootFolder="/home/f8tg2la/bin" accessType="SFTP" keyPair="true">
