@@ -47,6 +47,14 @@
           <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
+      <webServer id="a2e11f8b-5345-42a9-881f-e4670274d566" name="n1pvir001_working" url="http://n1pvir001">
+        <fileTransfer host="n1pvir001" port="22" privateKey="C:\Users\f8tg2la\Documents\laptop_putty.ppk" rootFolder="/home/f8tg2la/working" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
     <groups>
       <group>
