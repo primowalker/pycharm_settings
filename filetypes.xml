@@ -6,6 +6,7 @@
       <mapping ext="ksh" type="Bash" />
       <mapping pattern="list" type="PLAIN_TEXT" />
       <mapping pattern="json2csv" type="Python" />
+      <mapping pattern="ad-hoc_script_run-with_extra_args" type="Python" />
     </extensionMap>
   </component>
 </application>
