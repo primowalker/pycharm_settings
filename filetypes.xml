@@ -5,6 +5,7 @@
       <mapping pattern=".gitbash" type="Bash" />
       <mapping ext="ksh" type="Bash" />
       <mapping pattern="list" type="PLAIN_TEXT" />
+      <mapping pattern="json2csv" type="Python" />
     </extensionMap>
   </component>
 </application>
