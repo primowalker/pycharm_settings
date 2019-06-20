@@ -1,0 +1,30 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="aff2bf5e-2125-41cc-8cdd-6a429fcec4a0" name="n1pvap155" url="http://n1pvap155">
+        <fileTransfer host="n1pvap155" port="2222" rootFolder="/home/f8tg2la/working" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="56729b2d-e26a-451b-8920-7676a8877b91" name="Ansible Non-Prod Master - scripts" url="http://r1dvap1057">
+        <fileTransfer host="r1dvap1057" port="22" rootFolder="/home/ansible" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b15d061f-1a5c-4ff0-9229-50f9a42264d4" name="Ansible Non-Prod Master - bin" url="http://r1dvap1057">
+        <fileTransfer host="r1dvap1057" port="22" rootFolder="/home/ansible" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
