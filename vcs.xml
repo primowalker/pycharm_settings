@@ -3,38 +3,27 @@
     <option name="visitedUrls">
       <list>
         <UrlAndUserName>
-          <option name="url" value="https://F8TG2LA@escmstash.1dc.com/scm/~f8tg2la/salt_scripts.git" />
+          <option name="url" value="https://F8TG2LA@escmstash.1dc.com/scm/~f8tg2la/fdc_ansible.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://F8TG2LA@escmstash.1dc.com/scm/~f8tg2la/standard_scripts.git" />
+          <option name="url" value="https://github.com/primowalker/Pycharm.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://F8TG2LA@escmstash.1dc.com/scm/~f8tg2la/opsware_scripts.git" />
+          <option name="url" value="https://F8TG2LA@escmstash.1dc.com/scm/~f8tg2la/fdc_scripts.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://F8TG2LA@escmstash.1dc.com/scm/saltstack/salt.git" />
-          <option name="userName" value="" />
+          <option name="url" value="http://escmstash.1dc.com" />
+          <option name="userName" value="F8TG2LA" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://github.com/saltstack/salt.git" />
+          <option name="url" value="https://github.com/primowalker/pycharm_settings.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\f8tg2la\PycharmProjects" />
-  </component>
-  <component name="HgRememberedInputs">
-    <option name="visitedUrls">
-      <list>
-        <UrlAndUserName>
-          <option name="url" value="https://F8TG2LA@escmstash.1dc.com/scm/~f8tg2la/stuff.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-      </list>
-    </option>
-    <option name="cloneParentDir" value="C:\Users\f8tg2la\PycharmProjects" />
+    <option name="cloneParentDir" value="$USER_HOME$/PycharmProjects" />
   </component>
 </application>
