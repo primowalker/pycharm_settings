@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="500a48c4-4ee9-4fb9-b6e0-547732326b7a" name="csalt2 - bin" url="http://r3pvap1342">
-        <fileTransfer host="r3pvap1342" port="22" privateKey="$USER_HOME$/.ssh/id_rsa.pub" rootFolder="/home/f8tg2la" accessType="SFTP" keyPair="true">
+        <fileTransfer host="r3pvap1342" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/bin" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -10,23 +10,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="a059cccb-496f-41ae-9581-d41c5caf0693" name="osalt1 - bin" url="http://r1pvap1468">
-        <fileTransfer host="r1pvap1468" port="22" privateKey="$USER_HOME$/.ssh/id_rsa.pub" rootFolder="/home/f8tg2la" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="957a790e-1db3-43ab-936d-8d72d5310f09" name="csalt - working" url="http://r3pvap1342">
-        <fileTransfer host="r3pvap1342" port="22" privateKey="$USER_HOME$/.ssh/id_rsa.pub" rootFolder="/home/f8tg2la/working" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="c2f4303a-4bb6-4289-9fd3-715622920741" name="osalt1 - working" url="http://r1pvap1468">
-        <fileTransfer host="r1pvap1468" port="22" privateKey="$USER_HOME$/.ssh/id_rsa.pub" rootFolder="/home/f8tg2la/working" accessType="SFTP" keyPair="true">
+        <fileTransfer host="r1pvap1468" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/bin" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -37,10 +21,10 @@
         <fileTransfer port="0" mountedRoot="$USER_HOME$/Documents/bin" accessType="MOUNT" />
       </webServer>
       <webServer id="8eb0c2c2-6896-4cc7-baa1-be9863dd3894" name="scripts arcihve" url="http://localhost">
-        <fileTransfer port="0" mountedRoot="$USER_HOME$/C:\Users\f8tg2la\Documents\scripts_archive" accessType="MOUNT" />
+        <fileTransfer port="0" mountedRoot="$USER_HOME$/Documents/scripts_archive" accessType="MOUNT" />
       </webServer>
       <webServer id="124e4208-ee7d-4133-8aa1-5e861161927c" name="n3pvir001" url="http://n3pvir001">
-        <fileTransfer host="n3pvir001" port="22" privateKey="$USER_HOME$/.ssh/id_rsa.pub" rootFolder="/home/f8tg2la" accessType="SFTP" keyPair="true">
+        <fileTransfer host="n3pvir001" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/bin" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -48,7 +32,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="3313bf8a-a2b9-40e5-a883-7596ab9174a1" name="n1pvir001 (project level)" url="http://n1pvir001">
-        <fileTransfer host="n1pvir001" port="22" privateKey="$USER_HOME$/.ssh/id_rsa.pub" rootFolder="/home/f8tg2la" accessType="SFTP" keyPair="true">
+        <fileTransfer host="n1pvir001" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/bin" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -56,7 +40,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="426da865-42a4-4d93-82d3-3e97af483988" name="n1pvap155 - bin" url="http://n1pvap155">
-        <fileTransfer host="n1pvap155" port="2222" accessType="SFTP">
+        <fileTransfer host="n1pvap155" port="2222" rootFolder="/home/f8tg2la/bin" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -67,7 +51,7 @@
         <fileTransfer port="0" mountedRoot="$USER_HOME$/bin" accessType="MOUNT" />
       </webServer>
       <webServer id="2accdce1-5aef-4731-a8ab-f417b7d95611" name="n1pvir001 - x2linux UNIX Scripts" url="http://n1pvir001">
-        <fileTransfer host="n1pvir001" port="22" privateKey="$USER_HOME$/.ssh/id_rsa.pub" rootFolder="/home/x2linux/unix_sysadmin_scripts" accessType="SFTP" keyPair="true">
+        <fileTransfer host="n1pvir001" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/x2linux/unix_sysadmin_scripts" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -75,7 +59,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="773a9a72-6cd0-4d31-9c21-289f1f0f516d" name="n3pvir001 - x2linux UNIX Scripts" url="http://n3pvir001">
-        <fileTransfer host="n3pvir001" port="22" privateKey="$USER_HOME$/.ssh/id_rsa.pub" rootFolder="/home/x2linux/unix_sysadmin_scripts" accessType="SFTP" keyPair="true">
+        <fileTransfer host="n3pvir001" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/x2linux/unix_sysadmin_scripts" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -83,7 +67,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="8c830f39-4f3b-4343-ac6c-4f5c50c8613c" name="oslat - Admin Files" url="http://r1pvap1468">
-        <fileTransfer host="r1pvap1468" port="22" privateKey="$USER_HOME$/.ssh/id_rsa.pub" rootFolder="/opt/admin/files/Salt" accessType="SFTP" keyPair="true">
+        <fileTransfer host="r1pvap1468" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/opt/admin/files/Salt" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -91,7 +75,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="e320ca61-45fe-494a-9c43-1bd8bb18d02b" name="csalt - Admin Files" url="http://r3pvap1342">
-        <fileTransfer host="r3pvap1342" port="22" privateKey="$USER_HOME$/.ssh/id_rsa.pub" rootFolder="/opt/admin/files/Salt" accessType="SFTP" keyPair="true">
+        <fileTransfer host="r3pvap1342" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/opt/admin/files/Salt" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -114,28 +98,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="b20e5b6f-9d62-4c5b-9978-419e020c3e83" name="win - bin" url="http://localhost">
-        <fileTransfer port="0" mountedRoot="$USER_HOME$/Documents/bin" accessType="MOUNT" />
-      </webServer>
-      <webServer id="4a0ff212-daa1-4cfd-be0a-b08bdadfa7be" name="bin" url="http://localhost">
-        <fileTransfer port="0" mountedRoot="$USER_HOME$/bin" accessType="MOUNT" />
-      </webServer>
-      <webServer id="552c05e5-7ffa-407e-bc9b-94b7e8fca405" name="n3priv001" url="http://n3pvir001">
-        <fileTransfer host="n3pvir001" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/bin" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="ee01da6a-e0da-4a00-aad6-e810023003dc" name="n1pvir001" url="http://n1pvir001">
-        <fileTransfer host="n1pvir001" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/bin" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
     </option>
     <groups>
       <group>
@@ -143,13 +105,6 @@
         <servers>
           <name value="csalt2 - bin" />
           <name value="osalt1 - bin" />
-        </servers>
-      </group>
-      <group>
-        <name>Salt Masters - working</name>
-        <servers>
-          <name value="csalt - working" />
-          <name value="osalt1 - working" />
         </servers>
       </group>
       <group>
@@ -182,15 +137,6 @@
         <servers>
           <name value="Salt Omaha - Working" />
           <name value="Salt Chandler - Working" />
-        </servers>
-      </group>
-      <group>
-        <name>bins</name>
-        <servers>
-          <name value="win - bin" />
-          <name value="bin" />
-          <name value="n3priv001" />
-          <name value="n1pvir001" />
         </servers>
       </group>
     </groups>
