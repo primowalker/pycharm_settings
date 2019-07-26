@@ -1,22 +1,6 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="500a48c4-4ee9-4fb9-b6e0-547732326b7a" name="csalt2 - bin" url="http://r3pvap1342">
-        <fileTransfer host="r3pvap1342" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/bin" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="a059cccb-496f-41ae-9581-d41c5caf0693" name="osalt1 - bin" url="http://r1pvap1468">
-        <fileTransfer host="r1pvap1468" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/bin" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
       <webServer id="64b59b01-2d97-4345-9ee2-1bfde97f5411" name="win_bin" url="http://localhost">
         <fileTransfer port="0" mountedRoot="$USER_HOME$/Documents/bin" accessType="MOUNT" />
       </webServer>
@@ -50,6 +34,38 @@
       <webServer id="44107868-e8d9-4bac-9d93-47502495e153" name="bin (project level)" url="http://localhost">
         <fileTransfer port="0" mountedRoot="$USER_HOME$/bin" accessType="MOUNT" />
       </webServer>
+      <webServer id="dc5faeac-276e-456d-97d2-0ad3b1863531" name="Omaha Salt Master - Working" url="http://r1pvap1468">
+        <fileTransfer host="r1pvap1468" port="22" privateKey="C:\Users\f8tg2la\Documents\laptop_putty.ppk" rootFolder="/home/f8tg2la/working" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="076ee136-dfcf-404e-9bdc-0452a04f3980" name="Chandler Salt Master - Working" url="http://r3pvap1342">
+        <fileTransfer host="r3pvap1342" port="22" privateKey="C:\Users\f8tg2la\Documents\laptop_putty.ppk" rootFolder="/home/f8tg2la/working" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="500a48c4-4ee9-4fb9-b6e0-547732326b7a" name="csalt2 - bin" url="http://r3pvap1342">
+        <fileTransfer host="r3pvap1342" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/bin" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a059cccb-496f-41ae-9581-d41c5caf0693" name="osalt1 - bin" url="http://r1pvap1468">
+        <fileTransfer host="r1pvap1468" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/bin" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="2accdce1-5aef-4731-a8ab-f417b7d95611" name="n1pvir001 - x2linux UNIX Scripts" url="http://n1pvir001">
         <fileTransfer host="n1pvir001" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/x2linux/unix_sysadmin_scripts" accessType="SFTP" keyPair="true">
           <advancedOptions>
@@ -82,33 +98,10 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="43b2965e-d1bf-4866-9a54-f9006fc59149" name="Salt Omaha - Working" url="http://r1pvap1468">
-        <fileTransfer host="r1pvap1468" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/working" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="96d8fe7a-e88b-41ef-9878-51731c681bd6" name="Salt Chandler - Working" url="http://r3pvap1342">
-        <fileTransfer host="r3pvap1342" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/working" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
     </option>
     <groups>
       <group>
-        <name>Salt Masters - bin</name>
-        <servers>
-          <name value="csalt2 - bin" />
-          <name value="osalt1 - bin" />
-        </servers>
-      </group>
-      <group>
-        <name>All Servers</name>
+        <name>All Servers (project level)</name>
         <servers>
           <name value="win_bin" />
           <name value="scripts arcihve" />
@@ -116,6 +109,20 @@
           <name value="n1pvir001 (project level)" />
           <name value="n1pvap155 - bin" />
           <name value="bin (project level)" />
+        </servers>
+      </group>
+      <group>
+        <name>Salt Masters - Working (project level)</name>
+        <servers>
+          <name value="Omaha Salt Master - Working" />
+          <name value="Chandler Salt Master - Working" />
+        </servers>
+      </group>
+      <group>
+        <name>Salt Masters - bin</name>
+        <servers>
+          <name value="csalt2 - bin" />
+          <name value="osalt1 - bin" />
         </servers>
       </group>
       <group>
@@ -130,13 +137,6 @@
         <servers>
           <name value="oslat - Admin Files" />
           <name value="csalt - Admin Files" />
-        </servers>
-      </group>
-      <group>
-        <name>Salt Masters - Working</name>
-        <servers>
-          <name value="Salt Omaha - Working" />
-          <name value="Salt Chandler - Working" />
         </servers>
       </group>
     </groups>
