@@ -1,0 +1,62 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="43b2965e-d1bf-4866-9a54-f9006fc59149" name="Salt Omaha - Working" url="http://r1pvap1468">
+        <fileTransfer host="r1pvap1468" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/working" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="96d8fe7a-e88b-41ef-9878-51731c681bd6" name="Salt Chandler - Working" url="http://r3pvap1342">
+        <fileTransfer host="r3pvap1342" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/working" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b20e5b6f-9d62-4c5b-9978-419e020c3e83" name="win - bin" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="$USER_HOME$/Documents/bin" accessType="MOUNT" />
+      </webServer>
+      <webServer id="4a0ff212-daa1-4cfd-be0a-b08bdadfa7be" name="bin" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="$USER_HOME$/bin" accessType="MOUNT" />
+      </webServer>
+      <webServer id="552c05e5-7ffa-407e-bc9b-94b7e8fca405" name="n3priv001" url="http://n3pvir001">
+        <fileTransfer host="n3pvir001" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/bin" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="ee01da6a-e0da-4a00-aad6-e810023003dc" name="n1pvir001" url="http://n1pvir001">
+        <fileTransfer host="n1pvir001" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/bin" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>Salt Masters - Working</name>
+        <servers>
+          <name value="Salt Omaha - Working" />
+          <name value="Salt Chandler - Working" />
+        </servers>
+      </group>
+      <group>
+        <name>bins</name>
+        <servers>
+          <name value="win - bin" />
+          <name value="bin" />
+          <name value="n3priv001" />
+          <name value="n1pvir001" />
+        </servers>
+      </group>
+    </groups>
+  </component>
+</application>
