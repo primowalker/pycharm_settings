@@ -1,22 +1,6 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="2431b9b5-c191-4941-9deb-3576140bdc3d" name="Omaha Salt Master - working" url="http://r1pvap1468">
-        <fileTransfer host="r1pvap1468" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/working" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="59907ccb-9bda-45d9-b735-5d512e051905" name="Chanlder Salt Master - working" url="http://r3pvap1342">
-        <fileTransfer host="r3pvap1342" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/working" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
       <webServer id="3f20d58f-3b02-4798-ae76-522d44d6ef5f" name="Omaha Salt Master - bin" url="http://r1pvap1468">
         <fileTransfer host="r1pvap1468" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/bin" accessType="SFTP" keyPair="true">
           <advancedOptions>
@@ -49,38 +33,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="8049318d-78ba-4b95-99d9-2e23ab9e0718" name="n3pvir001 - working" url="http://n3pvir001">
-        <fileTransfer host="n3pvir001" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/working" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="06c7026f-376b-4398-81f8-8ab69516fed9" name="n1pvir001 - working" url="http://n1pvir001">
-        <fileTransfer host="n1pvir001" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/working" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="e45c41b9-e6c1-4d6a-b4ae-f1be01b81a3b" name="n1pvap155 - working" url="http://n1pvap155">
-        <fileTransfer host="n1pvap155" port="2222" rootFolder="/home/f8tg2la/working" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="2222" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="83651779-b17d-4189-a609-0600311e569b" name="n3pvap168 - working" url="http://n3pvap168">
-        <fileTransfer host="n3pvap168" port="2222" rootFolder="/home/f8tg2la/working" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="2222" />
-        </fileTransfer>
-      </webServer>
       <webServer id="db3eaae8-4d30-4b17-aeb3-53eba3314d4c" name="win bin" url="http://localhost">
         <fileTransfer port="0" mountedRoot="$USER_HOME$/Documents/bin" accessType="MOUNT" />
       </webServer>
@@ -93,13 +45,6 @@
     </option>
     <groups>
       <group>
-        <name>Salt Masters - working</name>
-        <servers>
-          <name value="Omaha Salt Master - working" />
-          <name value="Chanlder Salt Master - working" />
-        </servers>
-      </group>
-      <group>
         <name>Salt Masters - bin</name>
         <servers>
           <name value="Omaha Salt Master - bin" />
@@ -111,20 +56,6 @@
         <servers>
           <name value="n1pvir001 - unix_sysadmin_scripts" />
           <name value="n3pvir001 - unix_sysadmin_scripts" />
-        </servers>
-      </group>
-      <group>
-        <name>admin - working</name>
-        <servers>
-          <name value="n3pvir001 - working" />
-          <name value="n1pvir001 - working" />
-        </servers>
-      </group>
-      <group>
-        <name>Opsware - working</name>
-        <servers>
-          <name value="n1pvap155 - working" />
-          <name value="n3pvap168 - working" />
         </servers>
       </group>
       <group>
