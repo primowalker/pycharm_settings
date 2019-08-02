@@ -33,22 +33,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="130b697a-5452-40a1-a14c-5f0666711485" name="Chandler Salt Master - /opt/admin/file/Salt" url="http://r3pvap1342">
-        <fileTransfer host="r3pvap1342" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/opt/admin/files/Salt" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="15b80937-ac74-4d74-920f-e1a04580c700" name="Omaha Salt Master - /opt/admin/file/Salt" url="http://r1pvap1468">
-        <fileTransfer host="r1pvap1468" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/opt/admin/files/Salt" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
       <webServer id="c5db9018-17a4-44a3-9698-11709adec4ea" name="n1pvir001 - unix_sysadmin_scripts" url="http://n1pvir001">
         <fileTransfer host="n1pvir001" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/x2linux/unix_sysadmin_scripts" accessType="SFTP" keyPair="true">
           <advancedOptions>
@@ -120,13 +104,6 @@
         <servers>
           <name value="Omaha Salt Master - bin" />
           <name value="Chandler Salt Master - bin" />
-        </servers>
-      </group>
-      <group>
-        <name>Salt Masters - /opt/admin/files/salt</name>
-        <servers>
-          <name value="Chandler Salt Master - /opt/admin/file/Salt" />
-          <name value="Omaha Salt Master - /opt/admin/file/Salt" />
         </servers>
       </group>
       <group>
