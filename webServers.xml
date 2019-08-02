@@ -1,6 +1,22 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="130b697a-5452-40a1-a14c-5f0666711485" name="Chandler Salt Master - /opt/admin/file/Salt" url="http://r3pvap1342">
+        <fileTransfer host="r3pvap1342" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/opt/admin/files/Salt" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="15b80937-ac74-4d74-920f-e1a04580c700" name="Omaha Salt Master - /opt/admin/file/Salt" url="http://r1pvap1468">
+        <fileTransfer host="r1pvap1468" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/opt/admin/files/Salt" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="3f20d58f-3b02-4798-ae76-522d44d6ef5f" name="Omaha Salt Master - bin" url="http://r1pvap1468">
         <fileTransfer host="r1pvap1468" port="22" privateKey="$USER_HOME$/Documents/laptop_putty.ppk" rootFolder="/home/f8tg2la/bin" accessType="SFTP" keyPair="true">
           <advancedOptions>
@@ -44,6 +60,13 @@
       </webServer>
     </option>
     <groups>
+      <group>
+        <name>Salt Masters - /opt/admin/files/salt</name>
+        <servers>
+          <name value="Chandler Salt Master - /opt/admin/file/Salt" />
+          <name value="Omaha Salt Master - /opt/admin/file/Salt" />
+        </servers>
+      </group>
       <group>
         <name>Salt Masters - bin</name>
         <servers>
