@@ -1,9 +1,0 @@
-<application>
-  <component name="WebServers">
-    <option name="servers">
-      <webServer id="8eb0c2c2-6896-4cc7-baa1-be9863dd3894" name="scripts arcihve" url="http://localhost">
-        <fileTransfer port="0" mountedRoot="C:\Users\f8tg2la\Documents\scripts_archive" accessType="MOUNT" />
-      </webServer>
-    </option>
-  </component>
-</application>
