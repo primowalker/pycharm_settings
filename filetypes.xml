@@ -6,6 +6,7 @@
       <mapping pattern=".gitbash" type="Bash" />
       <mapping ext="ksh" type="Bash" />
       <mapping ext="7" type="Bash" />
+      <mapping ext="jinja" type="Jinja2" />
       <mapping pattern="list" type="PLAIN_TEXT" />
       <mapping pattern="restart_salt" type="PLAIN_TEXT" />
       <mapping pattern="json2csv" type="Python" />
