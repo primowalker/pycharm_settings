@@ -1,0 +1,53 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2e825cc0-802d-4394-8db4-220e281e8bc8" name="l3pvir1000 - working" url="http://l3pvir1000">
+        <fileTransfer host="l3pvir1000" port="22" privateKey="C:\Users\f8tg2la\Documents\laptop_putty.ppk" rootFolder="/home/f8tg2la" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e111dec3-7b67-4b4c-b31e-4f3f36615764" name="l3pvir1000 - bin" url="http://l3pvir1000">
+        <fileTransfer host="l3pvir1000" port="22" privateKey="C:\Users\f8tg2la\Documents\laptop_putty.ppk" rootFolder="/home/f8tg2la" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="53a7474a-e0ff-41d1-a3e1-179a3319ad38" name="l1pvir1000 - working" url="http://l1pvir1000">
+        <fileTransfer host="l1pvir1000" port="22" privateKey="C:\Users\f8tg2la\Documents\laptop_putty.ppk" rootFolder="/home/f8tg2la" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c03dc0ad-fc40-4107-ae11-a92100602592" name="l1pvir1000 - bin" url="http://l3pvir1000">
+        <fileTransfer host="l3pvir1000" port="22" privateKey="C:\Users\f8tg2la\Documents\laptop_putty.ppk" rootFolder="/home/f8tg2la" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e2501420-b343-433e-b941-1d1b4d65f81c" name="bin" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="C:\Users\f8tg2la\Documents\bin" accessType="MOUNT" />
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>All</name>
+        <servers>
+          <name value="l3pvir1000 - working" />
+          <name value="l3pvir1000 - bin" />
+          <name value="l1pvir1000 - working" />
+          <name value="l1pvir1000 - bin" />
+          <name value="bin" />
+        </servers>
+      </group>
+    </groups>
+  </component>
+</application>
