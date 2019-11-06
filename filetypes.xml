@@ -13,6 +13,7 @@
       <mapping pattern="json2csv" type="Python" />
       <mapping pattern="ad-hoc_script_run-with_extra_args" type="Python" />
       <mapping pattern="install_docker" type="YAML" />
+      <mapping pattern="create_docker_volumes" type="YAML" />
       <mapping ext="sls" type="YAML" />
     </extensionMap>
   </component>
